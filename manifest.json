@@ -189,5 +189,56 @@
 				}
 			}
 		}
+	},
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"animation3.html",
+					"animation4.html",
+					"animation1.html",
+					"animation2.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"animation3.html": {
+				"resources": [
+					"index.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"animation4.html": {
+				"resources": [
+					"index.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"animation1.html": {
+				"resources": [
+					"index.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"animation2.html": {
+				"resources": [
+					"index.html"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"js/mui.js",
+				"css/mui.css"
+			]
+		}
 	}
 }

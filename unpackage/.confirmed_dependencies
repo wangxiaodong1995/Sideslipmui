@@ -1,0 +1,51 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"animation3.html",
+			"animation4.html",
+			"animation1.html",
+			"animation2.html"
+		],
+		"refer": [
+			"animation3.html",
+			"animation4.html",
+			"animation1.html",
+			"animation2.html"
+		]
+	},
+	"animation3.html": {
+		"resources": [
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"animation4.html": {
+		"resources": [
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"animation1.html": {
+		"resources": [
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"animation2.html": {
+		"resources": [
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}
